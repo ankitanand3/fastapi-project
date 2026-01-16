@@ -1,3 +1,9 @@
 fastapi
 dotenv
 jose
+ipykernel
+pandas
+scikit-learn
+redis
+
+# uv pip install -r requirements.txt
