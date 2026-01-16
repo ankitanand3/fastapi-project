@@ -12,7 +12,7 @@ app.add_middleware(LoggingMiddleware)
 
 # link endpoints
 app.include_router(routes_auth.router, tags=['Auth'])
-app.include_router(routes_predict, tags=['Predict'])
+app.include_router(routes_predict.router, tags=['Predict'])
 
 # monitoring using prometheus
 Instrumentator().instrument(app).expose(app)

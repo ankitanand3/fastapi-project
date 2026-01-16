@@ -1,6 +1,7 @@
 fastapi
+uvicorn
 dotenv
-jose
+python-jose[cryptography]
 ipykernel
 pandas
 scikit-learn
