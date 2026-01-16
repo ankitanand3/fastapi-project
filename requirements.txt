@@ -5,5 +5,6 @@ ipykernel
 pandas
 scikit-learn
 redis
+prometheus-fastapi-instrumentator
 
 # uv pip install -r requirements.txt
